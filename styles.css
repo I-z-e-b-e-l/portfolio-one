@@ -1,0 +1,96 @@
+body {
+    background-color: black;
+    width: 100%;
+    background-image: url("bgimage1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+
+#landing-div {
+
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+#hamburger {
+        
+    color:white;
+    position: absolute;
+    right: 0;
+    top: 5%;
+    margin-right: 5vw;
+    font-size: 1.5em;
+    /* padding: 0.5rem 1rem; */
+}
+
+.link-menu {
+    display: none;
+}
+
+.link-menu.open {
+    background-color: var(--tealblue);
+    display: block;
+    position: absolute;
+    margin-left: 65vw;
+}
+
+.headlink {
+    display: block;
+    text-align: center;
+    padding: 7% 7% 7% 7%; 
+    border-top: 1px solid white;
+}
+
+.content-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items:flex-end;
+    /* background-color: red; */
+
+}
+
+.section-div {
+    background-color: white;
+    color: black;
+    width: 80%;
+    padding: 1em;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+/* button {
+    background-color: rgb(8, 8, 8);
+    color: white;
+    border-radius: 25px;
+    border: 0px;
+    padding: 10px;
+    margin: 20px;
+} */
+
+#resume-div a{
+    color: black;
+    margin-bottom: 1em;
+}
+
+.center-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
