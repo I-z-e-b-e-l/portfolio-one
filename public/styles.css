@@ -1,0 +1,158 @@
+body {
+    background-color: black;
+    width: 100%;
+    background-image: url("bgimage1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+
+
+
+
+h1 {
+    font-size: 9em;
+    margin-top: 40vh;
+    margin-bottom: .5em;
+}
+
+h2 {
+    font-size: 3em;
+    margin-top: 1em;
+    /* margin-left: .5em; */
+}
+
+h3 {
+    font-size: 4em;
+    font-weight: normal;
+}
+
+p {
+    font-size: 3em;
+    /* padding-left: 1em; */
+}
+
+#landing-div {
+
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#hamburger {
+        
+    color:white;
+    position: absolute;
+    right: 0;
+    top: 5%;
+    margin-right: 6vw;
+    font-size: 1.5em;
+    /* padding: 0.5rem 1rem; */
+}
+
+.link-menu {
+    display: none;
+}
+
+.link-menu.open {
+    background-color: var(--tealblue);
+    display: block;
+    position: absolute;
+    margin-left: 65vw;
+}
+
+.headlink {
+    display: block;
+    text-align: center;
+    padding: 7% 7% 7% 7%; 
+    border-top: 1px solid white;
+}
+
+.content-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: flex-end;
+    /* position: */
+    /* display: none; */
+
+}
+
+.section-div {
+    background-color: white;
+    color: black;
+    width: 70%;
+    padding: 1em;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-bottom: 30px;
+    /* position:absolute; */
+}
+
+
+
+button {
+    background-color: white;
+    /* background-image: url("rainbow1.jpg");
+    background-size: cover;
+    background-position:center; */
+    color: black;
+    border-radius: 60px;
+    border: 1px black solid;
+    padding: 25px;
+    font-size: 3em;
+    /* margin-right: 8vw; */
+
+    /* margin: 20px; */
+}
+
+#resume-div a{
+    color: black;
+    margin-bottom: 1em;
+}
+
+.center-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center-icons {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-img {
+    width: 100%;
+    margin-bottom: 5vw;
+    /* margin-left: .5em; */
+}
+
+.descriptor {
+    font-size: small;
+    margin-top: 0;
+}
+
+.spacer {
+    width: 100%;
+    height: 6vw;
+}
+
+.social-icon {
+    color: black;
+    margin-bottom: 6vw;
+}
+
+.project-detail-div {
+    margin-bottom: 10vw;
+    display: none;
+}
